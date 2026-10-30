@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Host
+Host: https://myrahyab.ir
+
+# Sitemaps
+Sitemap: https://myrahyab.ir/sitemap.xml

@@ -1,26 +1,55 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+@font-face {
+  font-family: "x-black";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Black.ttf") format("truetype");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "x-bold";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Bold.ttf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "x-demiBold";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-DemiBold.ttf") format("truetype");
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "x-extraBold";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-ExtraBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "x-light";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "x-medium";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "x-regular";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "x-thin";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "x-ultraLight";
+  src: url("/fonts/IRANSansXFaNum/IRANSansXFaNum-UltraLight.ttf") format("truetype");
+}
+
+html {
+  scrollbar-width: thin; 
+}
+
